@@ -6,13 +6,7 @@ import javax.swing.JLabel;
 import javax.swing.JOptionPane;
 import javax.swing.JTextField;
  
-/**
- * Clase Ventana
- * Muestra la estructuta que deberia tener una Ventana en Java con la libreria
- * Swing, contiene una etiqueta, un caja de texto y un boton, que tiene la
- * accion de mostrar el texto en la caja por una ventana de mensaje.
- * @author Daniel Alvarez (a3dany)
- */
+
 public class Ventana extends JFrame implements ActionListener {
  
     private JLabel texto;           // etiqueta o texto no editable
